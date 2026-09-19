@@ -2,11 +2,11 @@
 
 **Meme 纳斯达克指数｜让 Meme 可以组合持有。**
 
-四币实物储备、BNB 一键铸造、份额按比例赎回。MemeDAQ 将多个 Meme 的组合持有做成可验证的链上流程，为同题材社区提供共同参与的入口。
+MemeDAQ 是 BNB Chain 上的 **Meme 发射台与组合持有协议**。用户可以发射新 Meme，以 dIDX 作为主池计价资产；也可以通过四币实物储备、BNB 一键铸造和按份额赎回，组合持有多个 Meme，为同题材社区提供共同参与的入口。
 
 [网站](https://memedaqindex.com) · [dIDX 铸造与赎回](https://memedaqindex.com/#/basket) · [中文提案](proposal/BEP-888.zh-CN.md) · [English specification](proposal/BEP-888.md) · [创新与实用性](docs/INNOVATION.zh-CN.md) · [主网合约](deployments/bsc-mainnet.json)
 
-> BEP-888 是本项目的协议名称与提案代号。本仓库是项目提案与参考实现，不表示 BNB Chain 官方已经分配 888 编号、受理或批准该标准。当前主网实现与提案受理状态分别记录。
+> 应用层提案已提交至 BNB Chain 官方仓库：[PR #717](https://github.com/bnb-chain/BEPs/pull/717)，2026-09-19 提交，当前待审阅。按官方流程使用 BAP 分类。BEP-888 保留为项目名称，正式标准编号尚未分配；提交不代表获批。[申请记录](docs/SUBMISSION.md)
 
 ## 为什么做这个
 
@@ -18,6 +18,7 @@
 
 | 能力 | 当前实现 |
 | --- | --- |
+| Meme 发射台 | 用户创建新 Meme，使用登记组合的 meme/dIDX 主池；当前创建费 0.005 BNB，另付 Gas |
 | 实物储备 | dIDX 默认篮子固定持有龙虾、牛来、永生果蝇、哈基咪四种链上代币 |
 | BNB 一键铸造 | 一笔交易自动买齐四种成分、按储备比例存入并发行份额 |
 | 退款 | 未花费 BNB 与未用于铸造的成分币退回付款方；成分币不再次兑换 |
@@ -61,6 +62,7 @@ flowchart LR
 
 | 模块 | 作用 |
 | --- | --- |
+| [MemeDaqLaunchpad](src/MemeDaqLaunchpad.sol)、[Router](src/MemeDaqRouter.sol)、[Hook](src/MemeDaqHook.sol) | 创建 Meme、主池交易与池内税费处理 |
 | [DidxBasket](src/index/DidxBasket.sol) | 固定四币储备、份额铸造、按比例赎回 |
 | [DidxRefundGateway](src/index/DidxRefundGateway.sol) | BNB 一笔进入、精确比例存入、退回多余资产 |
 | [DidxGateway](src/index/DidxGateway.sol) | 固定 V2/V3 购买路径、赎回并兑换 BNB |

@@ -1,10 +1,10 @@
 # BEP-888（项目提案代号）— Meme 纳斯达克指数与 dIDX 实物篮子 v1
 
-2026-09-19。BEP-888 是 MemeDAQ 使用的项目协议名称与提案代号。BNB Chain 官方提交记录、受理状态及正式编号尚待核验。本文描述本仓库的实现；部署地址、初始化与储备余额由网站「dIDX 篮子」页直接核验链上状态。
+2026-09-19。BEP-888 是 MemeDAQ 使用的项目协议名称。应用层提案已提交至 [BNB Chain 官方仓库 PR #717](https://github.com/bnb-chain/BEPs/pull/717)，按 BAP 流程等待审阅，尚未获批或分配正式标准编号。本文描述项目实现；部署地址、初始化与储备余额由网站「dIDX 篮子」页直接核验链上状态。
 
 ## 定位与实用性
 
-Meme 纳斯达克指数｜让 Meme 可以组合持有。四币实物储备、BNB 一键铸造、份额按比例赎回，建设同题材社区共同参与的入口。
+Meme 纳斯达克指数｜让 Meme 可以组合持有。MemeDAQ 是 BNB Chain 上的 Meme 发射台与组合持有协议：用户可发射使用 dIDX 主池的新 Meme，也可通过四币实物储备、BNB 一键铸造和按份额赎回，组合持有多个 Meme。发射台与 dIDX 核心源码已在 [GitHub](https://github.com/kontulbunder-oss/BEP-888) 开源。
 
 当同题材出现多个 Meme 时，参与入口与社区关注容易分散。篮子让用户用一份份额同时持有所选成分的比例权益，减少分别购买、管理与反复换仓的操作，为不同社区提供联合展示与参与的工具。“实物储备”指真实持有的链上成分代币。
 
@@ -18,7 +18,7 @@ BROCCOLIIDX 是后续同题材扩展示例：将选定的多个 Broccoli 代币�
 
 ## 项目命名与官方提案
 
-本文的 BEP-888 是项目提案代号，不表示 BNB Chain 已分配该编号、受理或批准本项目。[BEP-1 官方流程](https://github.com/bnb-chain/BEPs/blob/master/BEPs/BEP1.md)规定在官方仓库提交 PR，编号取自 PR 编号，审核合并后纳入提案体系。官方仓库现将应用层标准列为 BAP；正式提交时应按届时流程和编辑意见确定分类与编号。“部署至 BNB 主网”不等于“向 BNB 主网提交标准申请”。
+本文的 BEP-888 是项目名称。[申请 PR #717](https://github.com/bnb-chain/BEPs/pull/717)已按应用层 BAP 分类提交，正式标准编号由维护者按 [BAP 流程](https://github.com/bnb-chain/BEPs/blob/master/BAPs/README.md)在接受提案时分配。PR 编号不是已获批的标准编号，代码开源、主网部署和提案接纳是不同事项。
 
 ## 资产与权利
 
