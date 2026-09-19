@@ -1,0 +1,228 @@
+{
+  "executedAt": "2026-09-19T09:07:20.945Z",
+  "command": "forge test --json",
+  "forge": "1.7.1",
+  "solidity": "0.8.26",
+  "evmVersion": "cancun",
+  "optimizerRuns": 1,
+  "viaIR": true,
+  "summary": {
+    "passed": 42,
+    "failed": 0,
+    "skipped": 1,
+    "fuzzCases": 768
+  },
+  "suites": [
+    {
+      "suite": "test/BasketIndex.t.sol:BasketIndexTest",
+      "tests": [
+        {
+          "name": "testFuzz_uniformReturn(uint128)",
+          "status": "Success",
+          "fuzzRuns": 256
+        },
+        {
+          "name": "test_access_initializeOnce_proposalExact_cancel()",
+          "status": "Success"
+        },
+        {
+          "name": "test_addFifth_preservesLevel_afterDelay()",
+          "status": "Success"
+        },
+        {
+          "name": "test_badWeights_duplicateToken_wrongSource()",
+          "status": "Success"
+        },
+        {
+          "name": "test_equalWeight_normalizesDifferentPrices()",
+          "status": "Success"
+        },
+        {
+          "name": "test_invalidComponentPrice_failsClosed()",
+          "status": "Success"
+        },
+        {
+          "name": "test_permissionlessMaintenance_hasNoPriceSetter()",
+          "status": "Success"
+        },
+        {
+          "name": "test_recovery_cannotBypassHealthyPricesOrRecentCheckpoint()",
+          "status": "Success"
+        },
+        {
+          "name": "test_recovery_deadConstituent_preservesLastValidCheckpoint()",
+          "status": "Success"
+        }
+      ]
+    },
+    {
+      "suite": "test/BasketIndex.t.sol:BasketSourcesForkTest",
+      "tests": [
+        {
+          "name": "test_fork_realPoolPaths()",
+          "status": "Skipped",
+          "reason": "FORK_TESTS not enabled for the local suite."
+        }
+      ]
+    },
+    {
+      "suite": "test/BasketIndex.t.sol:V2IndexSourceTest",
+      "tests": [
+        {
+          "name": "test_cumulativeRollover()",
+          "status": "Success"
+        },
+        {
+          "name": "test_lowLiquidity_andQuoteFailure()",
+          "status": "Success"
+        },
+        {
+          "name": "test_poolTimestampRollover()",
+          "status": "Success"
+        },
+        {
+          "name": "test_reverseDirection()",
+          "status": "Success"
+        },
+        {
+          "name": "test_spotManipulation_rejected()",
+          "status": "Success"
+        },
+        {
+          "name": "test_stale_requiresRewarm_noFallback()",
+          "status": "Success"
+        },
+        {
+          "name": "test_warmup_realElapsedPrice_andCheckpointContinuity()",
+          "status": "Success"
+        }
+      ]
+    },
+    {
+      "suite": "test/DidxBasket.t.sol:DidxBasketTest",
+      "tests": [
+        {
+          "name": "testFuzz_roundTripCannotTakeMoreThanPaid(uint64)",
+          "status": "Success",
+          "fuzzRuns": 256
+        },
+        {
+          "name": "test_donationsDoNotManipulateMintQuoteOrReserves()",
+          "status": "Success"
+        },
+        {
+          "name": "test_frozenAssetRollsBackBurnAndAllTransfers()",
+          "status": "Success"
+        },
+        {
+          "name": "test_lossesSocializedAndZeroAssetDoesNotBlockOtherExits()",
+          "status": "Success"
+        },
+        {
+          "name": "test_onlyInitializerCanSeedOnce()",
+          "status": "Success"
+        },
+        {
+          "name": "test_redeemChecksNetTransferTaxesAndRevertsAtomically()",
+          "status": "Success"
+        },
+        {
+          "name": "test_surplusDeadlineAndRecipientLimits()",
+          "status": "Success"
+        },
+        {
+          "name": "test_taxedDepositsCannotMintUnbackedShares()",
+          "status": "Success"
+        }
+      ]
+    },
+    {
+      "suite": "test/DidxFiveChooseFour.t.sol:DidxFiveChooseFourTest",
+      "tests": [
+        {
+          "name": "test_allFiveCombinationsLaunchSeparateReservePools()",
+          "status": "Success"
+        },
+        {
+          "name": "test_basketOnlyLaunchBuySellAndRedeem()",
+          "status": "Success"
+        },
+        {
+          "name": "test_buybackRedeemsAllFiveWithoutCrossApprovals()",
+          "status": "Success"
+        },
+        {
+          "name": "test_cannotLaunchBasketWithBnbOrMixPools()",
+          "status": "Success"
+        },
+        {
+          "name": "test_cannotMixTwoReserveSharesInOneLaunch()",
+          "status": "Success"
+        },
+        {
+          "name": "test_noReplacementDuplicateOrForeignCandidate()",
+          "status": "Success"
+        },
+        {
+          "name": "test_redemptionNeverUsesAnotherCombinationsReserves()",
+          "status": "Success"
+        },
+        {
+          "name": "test_unregisteredBuybackRouteRollsBack()",
+          "status": "Success"
+        }
+      ]
+    },
+    {
+      "suite": "test/DidxLaunch.t.sol:DidxLaunchTest",
+      "tests": [
+        {
+          "name": "test_basketOnlyLaunchBuySellAndRedeem()",
+          "status": "Success"
+        },
+        {
+          "name": "test_cannotLaunchBasketWithBnbOrMixPools()",
+          "status": "Success"
+        }
+      ]
+    },
+    {
+      "suite": "test/DidxRefundGateway.t.sol:DidxRefundGatewayTest",
+      "tests": [
+        {
+          "name": "testFuzz_conservesAssetsWithoutUsingStrayBalances(uint96)",
+          "status": "Success",
+          "fuzzRuns": 256
+        },
+        {
+          "name": "test_assetQuoteAcquisitionPreservesBudgetAndRecipient()",
+          "status": "Success"
+        },
+        {
+          "name": "test_failedNativeRefundRollsBackMintAndPurchases()",
+          "status": "Success"
+        },
+        {
+          "name": "test_minimumOutputAndFailedSwapRollback()",
+          "status": "Success"
+        },
+        {
+          "name": "test_optionalMemePurchaseUsesOnlyNewSharesAndStillRefunds()",
+          "status": "Success"
+        },
+        {
+          "name": "test_refundsAllUnusedValueAndComponentSurplusToPayer()",
+          "status": "Success"
+        },
+        {
+          "name": "test_rejectsBasketTransferTaxAtomicallyInsteadOfKeepingSurplus()",
+          "status": "Success"
+        },
+        {
+          "name": "test_rejectsInvalidBudgetRecipientAndDeadline()",
+          "status": "Success"
+        }
+      ]
+    }
+  ]
+}

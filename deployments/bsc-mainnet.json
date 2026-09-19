@@ -1,0 +1,247 @@
+{
+  "chainId": 56,
+  "network": "BNB Smart Chain",
+  "checkedAt": "2026-09-19T09:09:31.264Z",
+  "blockNumber": 122770823,
+  "blockHash": "0x019611a3776866d64ffc7da84c66aafdcda3f28e947b3a4d15663034def9c27f",
+  "blockTimestamp": 1789808968,
+  "method": "Read-only eth_call and eth_getCode at one block; no transaction submitted.",
+  "contracts": {
+    "didx": {
+      "address": "0x5C36146A69abFd68346d801AfB911B97C18eb4b5",
+      "contract": "DidxBasket",
+      "explorer": "https://bscscan.com/address/0x5C36146A69abFd68346d801AfB911B97C18eb4b5",
+      "runtimeCodeKeccak256": "0x3f4d8d9737aabfc19b3354ca4a7cefc07931ce8b76a7d88833608781378f9b3e",
+      "runtimeBytes": 5472,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "refundGateway": {
+      "address": "0xc1359a0eDbdB727cd2686498be7A7403959C7C27",
+      "contract": "DidxRefundGateway",
+      "explorer": "https://bscscan.com/address/0xc1359a0eDbdB727cd2686498be7A7403959C7C27",
+      "runtimeCodeKeccak256": "0xc3f7bba346cee96baafaff8274934439556bde6719540ad09cd8f27d6773e6c8",
+      "runtimeBytes": 5485,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "purchaseAndRedeemGateway": {
+      "address": "0xc466C91407aAA1Cf3fB728fAa2b5EF0cc2Cb08EF",
+      "contract": "DidxGateway",
+      "explorer": "https://bscscan.com/address/0xc466C91407aAA1Cf3fB728fAa2b5EF0cc2Cb08EF",
+      "runtimeCodeKeccak256": "0x02a59d57acdaa51fd7619670fdca0cf0d0cdd7dd97e3266a948fdd07157a4082",
+      "runtimeBytes": 6371,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "navFeed": {
+      "address": "0xB594186f74a7b12E630215d92EdF9EFC8cE63c9c",
+      "contract": "DidxNavFeed",
+      "explorer": "https://bscscan.com/address/0xB594186f74a7b12E630215d92EdF9EFC8cE63c9c",
+      "runtimeCodeKeccak256": "0x2ff71ecbf4976352ba672d821a3f6712bb7a399cf9a5f50c80e699fabf070568",
+      "runtimeBytes": 1597,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "basketRegistry": {
+      "address": "0x1b9819e44FE8C760052D9652Cecbf4fCfB59f39a",
+      "contract": "DidxBasketRegistry",
+      "explorer": "https://bscscan.com/address/0x1b9819e44FE8C760052D9652Cecbf4fCfB59f39a",
+      "runtimeCodeKeccak256": "0x4a490280ac6ea0c6e57a2a295e769f442ddee8af340437591a71f70d0accf46f",
+      "runtimeBytes": 2412,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "launchpad": {
+      "address": "0xfa8545e8316d35d4ad1f4fC5136234AE765F940a",
+      "contract": "MemeDaqLaunchpad",
+      "explorer": "https://bscscan.com/address/0xfa8545e8316d35d4ad1f4fC5136234AE765F940a",
+      "runtimeCodeKeccak256": "0xda775ff30e799a740c8f3b9ecbdbfe607262b703397ecb00440434e798acce38",
+      "runtimeBytes": 24474,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "router": {
+      "address": "0xC6a1b1A017bea3EA3A7B3B622Ee2786e9b817B4C",
+      "contract": "MemeDaqRouter",
+      "explorer": "https://bscscan.com/address/0xC6a1b1A017bea3EA3A7B3B622Ee2786e9b817B4C",
+      "runtimeCodeKeccak256": "0x947ad8dd5822bfae997dcfeb69489643d4bfdaf21330321396bbc4c7761696f8",
+      "runtimeBytes": 4894,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "hook": {
+      "address": "0xC0E921c9f6c57096AC0EBd03b529b735b88bb1Ae",
+      "contract": "MemeDaqHook",
+      "explorer": "https://bscscan.com/address/0xC0E921c9f6c57096AC0EBd03b529b735b88bb1Ae",
+      "runtimeCodeKeccak256": "0xa72e18bb7a847e7a19528620b98132bb7cfe7f2b513aba325daea0297a96adba",
+      "runtimeBytes": 9819,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "buyback": {
+      "address": "0x017DBe8bB19018D6010C901d21E11f88E978ad58",
+      "contract": "MdaqBuyback",
+      "explorer": "https://bscscan.com/address/0x017DBe8bB19018D6010C901d21E11f88E978ad58",
+      "runtimeCodeKeccak256": "0x3ac1b2cd88f35d42ffe614d77125f323e86ff02a84a72b1be1b6774b79a36195",
+      "runtimeBytes": 9217,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "memeImplementation": {
+      "address": "0xCb39b51D7fDe156589E0C3d573E70fe0467dB253",
+      "contract": "MemeToken",
+      "explorer": "https://bscscan.com/address/0xCb39b51D7fDe156589E0C3d573E70fe0467dB253",
+      "runtimeCodeKeccak256": "0xec4541f68d6b4cc77f06018d8c698817c22c5162842380e7f0d0afb190807493",
+      "runtimeBytes": 9066,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "indexRegistry": {
+      "address": "0xC27C0fF58276269b26009fF7deBFAE8187b4C633",
+      "contract": "SelectableIndexRegistry",
+      "explorer": "https://bscscan.com/address/0xC27C0fF58276269b26009fF7deBFAE8187b4C633",
+      "runtimeCodeKeccak256": "0x1620abd28eb1c2e7d5ae785d55c023b65a83abadc7b856af80b3c123cdd682dd",
+      "runtimeBytes": 3847,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 1
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    },
+    "websiteReferenceIndex": {
+      "address": "0x60F04b26508E8081e323F52E67D22Ee88718A8FE",
+      "contract": "MemeBasketIndex",
+      "explorer": "https://bscscan.com/address/0x60F04b26508E8081e323F52E67D22Ee88718A8FE",
+      "runtimeCodeKeccak256": "0xe2e46a596093dd83ec6027267e17b33b8e35b53af7042750f20e7bcc4a4f352a",
+      "runtimeBytes": 5240,
+      "compiler": {
+        "version": "0.8.26",
+        "evmVersion": "cancun",
+        "viaIR": true,
+        "optimizerRuns": 200
+      },
+      "compiledRuntimeMatchExcludingMetadataAndImmutables": true
+    }
+  },
+  "defaultBasket": {
+    "symbol": "dIDX",
+    "shareDecimals": 18,
+    "totalSupplyRaw": "316809089616697947062",
+    "initializer": "0x0952E6C6831EAA0CefF4a91174285380A9165304",
+    "components": [
+      {
+        "index": 0,
+        "label": "龙虾",
+        "address": "0xeCCBb861c0dda7eFd964010085488B69317e4444",
+        "decimals": 18,
+        "redeemableReserveRaw": "280800449557537768350",
+        "priceSource": "0x5985aa7BA4FA408c53364549674f9CEf85c637e3"
+      },
+      {
+        "index": 1,
+        "label": "牛来",
+        "address": "0xBEEA1D618e533a387D941F58a7d4c9b7bD377777",
+        "decimals": 18,
+        "redeemableReserveRaw": "516561757942032161923",
+        "priceSource": "0x2F9ba1e1dAa0a5aBd9C7efDB752dE4d80cB9F51f"
+      },
+      {
+        "index": 2,
+        "label": "永生果蝇",
+        "address": "0x225AD472938d116f957BF86fB6B611da144F7777",
+        "decimals": 18,
+        "redeemableReserveRaw": "129886250349410764042076",
+        "priceSource": "0xC8918A0f1a624D8692143EBE2c3F71C51Def6678"
+      },
+      {
+        "index": 3,
+        "label": "哈基咪",
+        "address": "0x82Ec31D69b3c289E541b50E30681FD1ACAd24444",
+        "decimals": 18,
+        "redeemableReserveRaw": "1710166576578717453458",
+        "priceSource": "0x79047D3A96243071C9BdfB5585278416911bE6da"
+      }
+    ]
+  },
+  "configuration": {
+    "launchpadOwner": "0x969adFA457D5d5a2fa8f36ff295CdA42430E4b7a",
+    "memeCreationFeeBnb": "0.005",
+    "platformCandidate": null,
+    "launchpadIndexOracle": null,
+    "websiteReferenceIndex": "0x60F04b26508E8081e323F52E67D22Ee88718A8FE",
+    "registeredDefaultCompositionMask": 15,
+    "gatewayLegCount": 7
+  },
+  "bindingChecks": {
+    "launchpadBasket": true,
+    "launchpadRegistry": true,
+    "registryDefaultBasket": true,
+    "registryLaunchpad": true,
+    "registryMask15": true,
+    "refundPurchaseGateway": true,
+    "refundBasket": true,
+    "gatewayBasket": true,
+    "gatewayRouters": true,
+    "navBasket": true,
+    "componentPriceSources": true
+  },
+  "limitations": [
+    "Snapshot at the specified block; balances, owners and configuration may change.",
+    "Normalized runtime comparison removes compiler CBOR metadata and masks immutable reference slots; it is not an exact-bytecode verification or a complete audit. Listed immutable bindings are checked separately.",
+    "Price freshness, executable quotes, upgradeability of external component tokens and future exit success are not established by these reads.",
+    "No official BNB proposal status is implied."
+  ]
+}

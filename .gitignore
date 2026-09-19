@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+out/
+cache/
+out-reference-index/
+cache-reference-index/
+broadcast/
+node_modules/
+.DS_Store
+*.log
+*.zip

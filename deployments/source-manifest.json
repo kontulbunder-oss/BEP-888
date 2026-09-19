@@ -1,0 +1,122 @@
+{
+  "exportedAt": "2026-09-19T09:00:50.390Z",
+  "source": "MemeDAQ workspace: contracts/launchpad; byte-for-byte copies",
+  "files": [
+    {
+      "file": "src/MdaqBuyback.sol",
+      "sha256": "81266bdb4c034fc17ae53c31b3d4e3504eb4aaca64354679937989d43ab6f7c4"
+    },
+    {
+      "file": "src/MemeDaqHook.sol",
+      "sha256": "9dec384ada6de3f5f82f984ecc6ac61a33e2016ac46b06ea9a21b8b78aa57e95"
+    },
+    {
+      "file": "src/MemeDaqLaunchpad.sol",
+      "sha256": "ad3bc000553f136a8408c5485a07b806cc1665ab31e6b7bd332622110a241e27"
+    },
+    {
+      "file": "src/MemeDaqRouter.sol",
+      "sha256": "e860813fae84b355c8f36e39ae5c42bfec072196a4e5a9565b3f29f3ac2e4359"
+    },
+    {
+      "file": "src/MemeToken.sol",
+      "sha256": "09d5903a0d23a6d799fd8e2a37f88ce573daeaaaa76c59b83e5cd6ba221ca47c"
+    },
+    {
+      "file": "src/index/DidxBasket.sol",
+      "sha256": "95526cdd86d351cfd427f734517e9b9f6f58af725c8256161ae47782978c88d2"
+    },
+    {
+      "file": "src/index/DidxBasketRegistry.sol",
+      "sha256": "d11066a47f2dd2c2110173181f94f1e02c5204c60411d6ad6cdb3055fe81364b"
+    },
+    {
+      "file": "src/index/DidxGateway.sol",
+      "sha256": "683ddcc5d9486f1cc0a5580394fb1facf3e71b8cebd8a209de08255c75a10989"
+    },
+    {
+      "file": "src/index/DidxNavFeed.sol",
+      "sha256": "87aa61bd01b46bbe353a5e05c2bdd2062aa89394e5594a81d5ebbb2ce3a55b65"
+    },
+    {
+      "file": "src/index/DidxRefundGateway.sol",
+      "sha256": "f9586675e923695368f0ec773fad09858255c6747794949a8fa714c1d13ddc51"
+    },
+    {
+      "file": "src/index/IIndexPriceSource.sol",
+      "sha256": "1c1ac2030307d1cea89573d7b8fbffc6dee295ff6f1fdb68e14ac683ab2d0970"
+    },
+    {
+      "file": "src/index/IndexPriceSources.sol",
+      "sha256": "09602bc002eb7f1e524c0f79c3c0a5ad381d747f0f13fb6b5f6a6c6a25f36b7c"
+    },
+    {
+      "file": "src/index/MemeBasketIndex.sol",
+      "sha256": "0e08976a156c23cb196ba8bfb37fb10e2a4e89059c84b339441f903cdcb59778"
+    },
+    {
+      "file": "src/index/SelectableIndexRegistry.sol",
+      "sha256": "2fb2e617434bc100a6ebc6aef422b036feb44e06ca360530d11d6571597cd75f"
+    },
+    {
+      "file": "src/interfaces/IChainlinkFeed.sol",
+      "sha256": "955dfdde64a6a28eafed9c1c538fe008ba2d8bf6e6a1d446a36d46b1914913b1"
+    },
+    {
+      "file": "src/interfaces/IMdaqBuyback.sol",
+      "sha256": "16f1e668592b535740e72d80735089a506635b784510326cee65cfdf355e6172"
+    },
+    {
+      "file": "src/interfaces/IMemeDaqHook.sol",
+      "sha256": "ea2a4119e93e4698793ed57a0f4aa2c785330f68930934f821833805f4a6fd5b"
+    },
+    {
+      "file": "src/interfaces/IMemeDaqLaunchpad.sol",
+      "sha256": "ef5770c97f8d4d70ce6ebd384c92e96cbf0ebe63ef6e71d63fb5b39371accf4b"
+    },
+    {
+      "file": "src/interfaces/IMemeDaqRouter.sol",
+      "sha256": "8f310d85513a4e0754b460d4090b3a6d46ff6e3f7e70c41852f0ab774d65249f"
+    },
+    {
+      "file": "src/interfaces/IMemeToken.sol",
+      "sha256": "9e077efe1da17d2d982dd68eb99065da7fad189023238a743f3f53cc538f1d9e"
+    },
+    {
+      "file": "src/libraries/StartPrice.sol",
+      "sha256": "c502dd470e7b9fda2f0e9fdf67e8054a4ae07caa4185c924a5fb8083d1da9a69"
+    },
+    {
+      "file": "test/BasketIndex.t.sol",
+      "sha256": "068cd95784d1539acd558b894c74bc390beb9379b4aef375376fd594d5069eb2"
+    },
+    {
+      "file": "test/DidxBasket.t.sol",
+      "sha256": "f3df5dc5ce191f19de4cc84abbfd44de456cdb3d3e3a1e17bef1e3bc03af078e"
+    },
+    {
+      "file": "test/DidxFiveChooseFour.t.sol",
+      "sha256": "0ebbfa35ee7749459273cd2e9870167374477f90a2d9b37d29a649fd0431f44c"
+    },
+    {
+      "file": "test/DidxLaunch.t.sol",
+      "sha256": "7dca43cb2413a7658b6943052196965d4c99cee64fcc24339b3ee1b012f7ab0c"
+    },
+    {
+      "file": "test/DidxRefundGateway.t.sol",
+      "sha256": "dd3b60132e457c1e1e0f5024299461e6bb30b3e61ea66f5a2bf17f64a3738bcd"
+    },
+    {
+      "file": "test/mocks/Mocks.sol",
+      "sha256": "17ae4c484d50546f2924e049b50c68cfec1914489624830aa3b5f6cabffdaf2b"
+    },
+    {
+      "file": "test/utils/launchpad-router-buyback/LRBBase.sol",
+      "sha256": "c8223e549278dcd9f929cbaba5f86cb3482220c2694c8b31ac2f0afdba2a3c7a"
+    },
+    {
+      "file": "test/utils/launchpad-router-buyback/LRBHelpers.sol",
+      "sha256": "156e9ab717d5ee5e3ad35fefb4c2faab8404d8f6789b24861dd883c823d27940"
+    }
+  ]
+}

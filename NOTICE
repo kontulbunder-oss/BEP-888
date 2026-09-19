@@ -1,0 +1,15 @@
+MemeDAQ BEP-888 reference implementation
+
+First-party Solidity sources retain SPDX-License-Identifier: GPL-2.0-or-later.
+The repository includes the original Solidity import closure needed to compile
+and test the dIDX implementation; exported source hashes are recorded separately.
+
+Dependencies are pinned Git submodules, not relicensed project code:
+- PancakeSwap Infinity periphery: https://github.com/pancakeswap/infinity-periphery
+- PancakeSwap Infinity core: https://github.com/pancakeswap/infinity-core
+- OpenZeppelin Contracts: https://github.com/OpenZeppelin/openzeppelin-contracts
+- Foundry forge-std: https://github.com/foundry-rs/forge-std
+- Solmate and other upstream recursive dependencies retain their own licenses.
+
+Read each dependency's SPDX headers and LICENSE file before redistribution.
+No official BNB Chain numbering, endorsement, or Nasdaq affiliation is asserted.
